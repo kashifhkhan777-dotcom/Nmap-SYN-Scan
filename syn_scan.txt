@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Mon Oct 12 16:01:48 2026 as: /usr/lib/nmap/nmap -sS -oN syn_scan.txt 10.0.2.2
+Nmap scan report for 10.0.2.2
+Host is up (0.0015s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+
+# Nmap done at Mon Oct 12 16:01:54 2026 -- 1 IP address (1 host up) scanned in 5.99 seconds
